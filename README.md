@@ -80,7 +80,7 @@ Generates text based on a provided prompt.
 ### 1. Technology Stack
 * **FastAPI**: Chosen for its native asynchronous support and speed.
 * **Uvicorn**: An ASGI server to serve the application.
-* **Hugging Face Transformers**: Used to load the `distilgpt2` model (lightweight, ~300MB).
+* **Hugging Face Transformers**: Used to load the `GPT-2 medium` model (lightweight, ~300MB).
 * **PyTorch (CPU)**: We specifically use the CPU-only build of PyTorch to keep the Docker image size under 1.5GB.
 
 ### 2. Concurrency Handling Strategy
